@@ -1,0 +1,16 @@
+{
+  "name": "programming-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --parallel dev",
+    "build:server": "pnpm --filter server build",
+    "build:web": "pnpm --filter web build",
+    "start:server": "pnpm --filter server start:dev",
+    "start:web": "pnpm --filter web start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
